@@ -107,12 +107,17 @@ img {
     box-sizing: border-box;
 }
 
+#guide-info{
+    padding: 0 7px;
+    margin-bottom: 30px;
+}
+
 #guide-card{
     width: 100%;
     max-width: 400px;
     height: 295px;
     margin: 0 auto;
-    padding: 0 14px;
+    padding-left: 13px;
     display: flex;
     justify-content: space-around;
     align-items: center;
