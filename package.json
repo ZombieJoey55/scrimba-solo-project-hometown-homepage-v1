@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s00bp5pt63",
+  "description": "https://scrimba.com/s00bp5pt63/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

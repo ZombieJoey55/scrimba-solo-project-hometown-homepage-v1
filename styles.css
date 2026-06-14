@@ -1,0 +1,148 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* hero section */
+
+#hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 343px;
+}
+
+#hero-header{
+    color: white;
+    background: #1D3557;
+    padding: 5px 16px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#hero-subheader{
+    color: white;
+    background: #457B9D;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 55%;
+    margin-top: 0;
+}
+
+/* activities section */
+
+#activities{
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 5px;
+    height: 378px;
+    box-sizing: border-box;
+}
+
+#activities-header{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+#activities-gallery{
+    width: 100%;
+    display: flex;
+}
+
+.activity-item{
+    padding: 0 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.activity-header{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin: 18px 8px 4px;
+}
+
+.activity-description{
+    margin-top: 0;
+}
+
+/* guide section */
+
+#guide{
+    padding: 50px;
+    height: 394px;
+    box-sizing: border-box;
+}
+
+#guide-card{
+    width: 100%;
+    max-width: 400px;
+    height: 295px;
+    margin: 0 auto;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    background: #A8DADC;
+    color: #1D3557;
+    border-style: solid;
+    border-color: #1D3557;
+    border-width: 0 0 6px 0;
+    border-radius: 10px; 
+}
+
+#guide-img{
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#guide-header{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#guide-description{
+    font-style: italic;
+}
+
+#guide-name{
+    margin-top: 24px;
+}
