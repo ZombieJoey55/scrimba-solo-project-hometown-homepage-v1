@@ -41,7 +41,7 @@ img {
     color: white;
     background: #1D3557;
     padding: 5px 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 18px;
     margin-bottom: 10px;
 }
@@ -50,7 +50,7 @@ img {
     color: white;
     background: #457B9D;
     padding: 5px 12px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     width: 55%;
     margin-top: 0;
@@ -84,7 +84,7 @@ img {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
